@@ -1,0 +1,16 @@
+.parent {
+  gap: 10px;
+}
+
+@media only screen and (min-width: 641px){
+  .parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (min-width: 1025px){
+  .parent {
+    grid-template-columns: 1fr 1fr;
+  }
+}
